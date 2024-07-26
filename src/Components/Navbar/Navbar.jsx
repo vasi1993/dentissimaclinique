@@ -7,7 +7,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 const Navbar = () => {
-  const [menu, setMenu] = useState("home")
+  const [, setMenu] = useState("home")
   const menuRef = useRef();
 
   const openMenu = () => {

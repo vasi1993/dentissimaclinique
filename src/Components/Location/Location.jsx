@@ -21,7 +21,7 @@ const Location = () => {
             </div>
             <div className="phone">
                 <BsFillTelephoneFill/> 
-                <a href=""><p>Telefon - 0364 566 544</p></a>
+                <a href="tel:(+)40756999791"><p>Telefon - 0364 566 544</p></a>
             </div>
         </div>
         <div className="location-map">
