@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.147a54c7.css",
+    "main.js": "/static/js/main.0e6a032e.js",
+    "static/media/hero_contact.jpg": "/static/media/hero_contact.5bdb60dd40380b33d657.jpg",
+    "static/media/dr-roxana.jpg": "/static/media/dr-roxana.dc3349b679a4cf185e4e.jpg",
+    "static/media/hero5.jpg": "/static/media/hero5.7fc26d4dc8fb522e8215.jpg",
+    "static/media/hero1.jpg": "/static/media/hero1.6f72732395b316c72ff3.jpg",
+    "static/media/hero4.jpg": "/static/media/hero4.667d34e72fa2e041ce63.jpg",
+    "static/media/hero2.jpg": "/static/media/hero2.7b45a050267d6ffda6df.jpg",
+    "static/media/hero3.jpg": "/static/media/hero3.5265c79480da09fefc31.jpg",
+    "static/media/logo-header.jpg": "/static/media/logo-header.b40c141b575054b6a7cc.jpg",
+    "static/media/dr-laura.jpg": "/static/media/dr-laura.a7e9717613ffa3ea36ff.jpg",
+    "static/media/dr-andra.jpg": "/static/media/dr-andra.0798613d253c767bf24e.jpg",
+    "static/media/dr-razvan.png": "/static/media/dr-razvan.aa54b115ae977b92bd79.png",
+    "static/media/logo-footer.png": "/static/media/logo-footer.d35069d03a94abc0751a.png",
+    "static/media/anpc-sal.png": "/static/media/anpc-sal.04e76b824f5b93281595.png",
+    "static/media/logo1.jpg": "/static/media/logo1.609ba8f17a1870630c2b.jpg",
+    "static/media/anpc-sol.png": "/static/media/anpc-sol.f35066078b5433a526f8.png",
+    "static/media/instagram.svg": "/static/media/instagram.a0a9a83448ddb5827d70493a84d37806.svg",
+    "static/media/dental.svg": "/static/media/dental.f1a3327e0ac8747dcbfd171d8ad9d36b.svg",
+    "static/media/facebook.svg": "/static/media/facebook.1d8e0397525aadb52a029adc60908a02.svg",
+    "static/media/gmail.svg": "/static/media/gmail.147c77170af8d6c4b5667d09451723d2.svg",
+    "index.html": "/index.html",
+    "main.147a54c7.css.map": "/static/css/main.147a54c7.css.map",
+    "main.0e6a032e.js.map": "/static/js/main.0e6a032e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.147a54c7.css",
+    "static/js/main.0e6a032e.js"
+  ]
+}

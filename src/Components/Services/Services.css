@@ -1,0 +1,53 @@
+.services{
+    padding: 5% 10% 5% 10%; 
+    background: -moz-linear-gradient(180deg, #FFFFFF 19%, #CBCBCB 87%, #F2F2F2 100%, #00BCD4 100%); 
+
+    background: -webkit-linear-gradient(180deg, #FFFFFF 19%, #CBCBCB 87%, #F2F2F2 100%, #00BCD4 100%);
+
+    background: -o-linear-gradient(180deg, #FFFFFF 19%, #CBCBCB 87%, #F2F2F2 100%, #00BCD4 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00BCD4', endColorstr='#FFFFFF', GradientType=1 );
+
+    background: -ms-linear-gradient(180deg, #FFFFFF 19%, #CBCBCB 87%, #F2F2F2 100%, #00BCD4 100%);
+
+    background: linear-gradient(180deg, #FFFFFF 19%, #CBCBCB 87%, #F2F2F2 100%, #00BCD4 100%);
+
+
+   display: flex;
+   flex-direction: column;
+}
+
+.services-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+   
+}
+
+@media(max-width:1050px) {
+    .services{
+        padding: 7% 5% 5% 5%; 
+    }
+}
+
+@media(max-width:800px){
+    .services{
+        padding: 9% 5% 5% 5%; 
+    }
+
+    .services-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 5%;
+    }
+}
+
+@media(max-width:500px){
+    .services{
+        padding: 14% 5% 5% 5%; 
+    }
+
+    .services-card{
+        grid-template-columns: 1fr;
+    }
+}

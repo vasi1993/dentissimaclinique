@@ -1,0 +1,101 @@
+.medic-card{
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+    filter: var(--shadow-img);
+
+}
+
+.medic-card-img{
+    max-width: 100%;
+    height: auto;
+    
+    transition: transform .4s;
+   
+}
+
+.medic-card-img:hover{
+    transform: translateY(-.5rem);
+}
+
+.medic-card-img img{
+    border-radius: 1rem;
+}
+
+.medic-card-name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: var(--shadow-text);
+}
+
+.medic-card-profession{
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: -1rem;
+    text-shadow: var(--shadow-text);
+}
+
+
+@media(max-width:1050px){
+    .medic-card-name{
+        font-size: 1.4rem;
+    }
+    
+.medic-card-profession{
+    font-size: 0.9rem;
+    top: -0.5rem;
+}
+}
+
+
+@media(max-width:800px){
+    .medic-card{
+        width: 100%;
+
+    }
+    
+    .medic-card-img{
+        max-width: 65%;   
+    }
+
+    .medic-card-name{
+        font-size: 1.4rem;
+    }
+    
+    .medic-card-profession{
+        font-size: 0.9rem;
+        top: -0.5rem;
+    
+    }
+}
+
+@media(max-width:500px){
+    .medic-card{
+        width: 100%;
+
+    }
+    
+    .medic-card-img{
+        max-width: 60%;   
+    }
+
+    .medic-card-name{
+        font-size: 1.4rem;
+    }
+    
+    .medic-card-profession{
+        font-size: 0.9rem;
+        top: -0.5rem;
+    
+    }
+}
