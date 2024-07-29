@@ -1,0 +1,111 @@
+.hero-contact{
+    background-image: url("../Assets/hero_contact.jpg");
+    background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover ;
+ 
+  height: 500px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.hero-contact-image{
+  width: 8%;
+  filter: var(--shadow-img);
+ 
+}
+
+.hero-contact-image img {
+  color: white;
+}
+
+.hero-contact-title{
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-align: center;
+
+
+}
+
+.hero-contact-description{
+  font-size: 1.6rem;
+  color: white;
+  text-align: center;
+ 
+}
+
+.hero-contact-button{
+  font-size: 2.5rem;
+  background-color: transparent;
+  padding: 1% 2%;
+  border: solid 3px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.5s;
+
+
+}
+
+.hero-contact-button:hover{
+  color: var(--color-green);
+}
+
+@media(max-width:1150px){
+  .hero-contact-title{
+    font-size: 2.3rem;
+    width: 100%;
+  }
+  
+  .hero-contact-description{
+    font-size: 1.3rem;
+    width: 100%;
+  }
+  
+  .hero-contact-button{
+    font-size: 2.2rem;
+    background-color: transparent;
+    padding: 1% 2%;
+    border: solid 3px;
+    color: white;
+  }
+  
+}
+
+@media(max-width:800px){
+  .hero-contact{
+  height: 400px;
+  gap: 30px;
+}
+
+.hero-contact-image{
+  width: 7%;
+ 
+}
+
+.hero-contact-title{
+  font-size: 1.6rem;
+}
+
+.hero-contact-description{
+  font-size: 1rem;
+
+}
+
+.hero-contact-button{
+  font-size: 1.8rem;
+  background-color: transparent;
+  padding: 1% 2%;
+  border: solid 3px;
+  color: white;
+}
+
+
+}
