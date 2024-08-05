@@ -40,7 +40,7 @@ const closeMenu = () => {
             </ul>
        
         <div className='nav-programare'>
-          <a href="tel:(+)40756999791">PROGRAMEAZĂ-TE</a>
+          <a href="tel:(+)40364566544">PROGRAMEAZĂ-TE</a>
         </div>
 
        

@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
             <div className="footer-location-phone">
                 <BsFillTelephoneFill/> 
-                <p>Telefon - 0364 566 544</p>
+                <p><a href="tel:(+)40364566544">Telefon - 0364 566 544</a></p>
             </div>
             <div className="footer-location-program">
                 <div className="footer-location-orar">

@@ -1,16 +1,21 @@
-import React from 'react'
+import React, { useRef, useState } from 'react';
 import './Header.css'
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 
+
 const Header = () => {
+  const [, setMenu] = useState("home")
+  const menuRef = useRef();
+
   return (
     <div className='header' id='home'>
       <div className="header-image">
-      <div className="header-main">   
+      <div ref={menuRef} className="header-main">   
             <h1>DENTISSIMA CLINIQUE</h1>
             <p>grija pentru tine și zâmbetul tău</p>
-            <button type='button' className='header-main-button'>VEZI SERVICIILE OFERITE</button>
+            <a href="#service" className='header-main-button'><p onClick={() => setMenu("service")}>VEZI SERVICIILE OFERITE</p></a>
+  
       </div>
       </div>
       <div className="header-container">
@@ -19,7 +24,7 @@ const Header = () => {
             <h1>Programează o consultație</h1>
             <p>La Dentissima combinăm cea mai recentă tehnologie cu experiența profesioniștilor noștri, pentru a garanta tratamente eficiente cu rezultate optime.</p>
             <button type='button' className='header-btn'>
-              Vreau o programare 
+             <a href="tel:(+)40364566544">Vreau o programare </a> 
               <FaArrowRightLong  className='arrow-btn' />
               </button>
         </div>
@@ -65,7 +70,7 @@ const Header = () => {
 
         <div className="header-container-contact">
             <h1>Contactează-ne</h1>
-            <a href="tel:(+)40756999791"> <FaPhoneAlt /> 0756999791</a>
+            <a href="tel:(+)40364566544"> <FaPhoneAlt /> 0756999791</a>
             <p>Noi suntem specialiști în realizarea zâmbetelor perfecte, oferind ingrijire profesionala dentara.</p>
         </div>
       </div>

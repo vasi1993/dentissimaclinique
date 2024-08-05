@@ -67,8 +67,12 @@
     
     width: 30%;
     height: 100%;
-
+    transition: transform .4s;
     
+}
+
+.footer-social-icon:hover {
+    transform: translateY(-.5rem);
 }
 
 .footer-social-icon img{
@@ -88,6 +92,11 @@
 .footer-social-anpc-icon{
     max-width: 70%;
     filter: var(--shadow-img);
+    transition: transform .4s;
+}
+
+.footer-social-anpc-icon:hover{
+    transform: translateY(-.3rem);
 }
 
 .footer-location{
