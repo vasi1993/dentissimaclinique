@@ -7,8 +7,8 @@ const Carousel = ({picture}) => {
     const[autoPlay, setAutoPlay] = useState(true);
     let timeOut = null;
 
-    useEffect(()=>{
-     timeOut = autoPlay && setTimeout(() => {nextSlide()}, 2500);
+    useEffect(()=>{                                                 // eslint-disable-next-line
+     timeOut = autoPlay && setTimeout(() => {nextSlide()}, 2500);   // eslint-disable-next-line
     })
 
     const nextSlide = () => {
