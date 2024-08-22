@@ -462,16 +462,20 @@ color: black;
       }
 
       .header-main-button{
-        padding-top: 0.8rem;
+        padding: 4% 2%;
         width: 50%;
-        height: 25%;
        
+    }
+
+    .header-main-button p{
+        font-size: 1.3rem;
     }
 
   
   
     .header-container-contact{
         padding: 3rem 0.5rem 0 0.5rem;
+        
         
     }
 }

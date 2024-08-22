@@ -133,7 +133,7 @@ text-shadow: var(--shadow-text);
 
 @media(max-width:800px){
    .about{
-      padding: 9% 2% 6% 2%; 
+      padding: 13% 2% 6% 2%; 
    }
    .about-us{
       display: flex;
@@ -182,7 +182,7 @@ text-shadow: var(--shadow-text);
 
 @media(max-width:500px){
    .about{
-      padding: 12% 1% 6% 1%; 
+      padding: 16% 1% 6% 1%; 
    }
 
    .about-img{

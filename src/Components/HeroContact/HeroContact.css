@@ -109,3 +109,10 @@
 
 
 }
+
+
+@media(max-width:500px) {
+  .hero-contact-button{
+    padding: 2% 2%;
+  }
+}

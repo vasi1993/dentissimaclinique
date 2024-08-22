@@ -5,7 +5,7 @@ import ServiceCard from '../ServiceCard/ServiceCard'
 import data_service from '../Assets/data'
 
 
-const Services = () => {
+const Services = (props) => {
   return (
     <div className='services' id='service'>
 
@@ -28,6 +28,7 @@ Astfel, clinica noastră vă pune la dispoziție o gamă largă de servicii stom
                   image={item.image}
                   name={item.name}
                   description= {item.description}
+                  open={props.open}
                   />
        })}
         </div>
