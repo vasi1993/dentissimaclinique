@@ -10,7 +10,7 @@ const Header = () => {
       <div className="header-image">
         <div className="header-main">
           <h1>DENTISSIMA CLINIQUE</h1>
-          <p>grija pentru tine și zâmbetul tău</p>
+          <p>zâmbetul te definește</p>
           <AnchorLink href="#service" className="header-main-button">
             <p>VEZI SERVICIILE OFERITE</p>
           </AnchorLink>
