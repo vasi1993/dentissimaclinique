@@ -7,23 +7,23 @@ export const validateForm = (name, lastname, phone, message) => {
     
 
     if(name.length === 0) {
-        nameErrorMessage = "Acest camp este obligatoriu";
+        nameErrorMessage = "Acest câmp este obligatoriu";
         isFormValid= false;
     
     }
 
     if(lastname.length === 0) {
-        lastnameErrorMessage = "Acest camp este obligatoriu";
+        lastnameErrorMessage = "Acest câmp este obligatoriu";
         isFormValid= false;
     }
 
     if(message.length === 0){
-        messageErrorMessage = "Acest camp este obligatoriu";
+        messageErrorMessage = "Acest câmp este obligatoriu";
         isFormValid = false;
       }
 
       if(phone.length === 0) {
-        phoneErrorMessage = "Acest camp este obligatoriu";
+        phoneErrorMessage = "Acest câmp este obligatoriu";
         isFormValid= false;
     } else if (name.length > 11) {
         nameErrorMessage = "Trebuie sa contina 11 caractere";

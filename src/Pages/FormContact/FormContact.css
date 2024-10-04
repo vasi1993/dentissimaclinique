@@ -155,3 +155,193 @@ p.error-message-info{
 .button-primary:disabled {
     opacity: 0.2;
   }
+
+  @media (max-width: 800px) {
+    .form-contact{
+       
+     padding: 20px 10%;
+    margin-top: 3%;    
+    }
+    
+    .form-contact-img{
+   
+        left: 55%;
+    }
+    
+    .form-contact h2{
+       margin-bottom: 2%;
+       font-size: 2.7rem;
+
+    }
+    
+    .form-contact p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-bottom: 5%;
+    }
+    
+    .name, .contact{
+        width: 30%;
+        height: 50%;
+        gap: 20px;
+        margin-bottom: 6%;
+    }
+    
+    .input-primary {
+        font-size: 1.5rem;
+        padding: 4%;
+     
+    }
+    
+    .input-primary::placeholder{
+        font-size: 1.2rem;  
+    }
+    
+    p.error-message{
+      width: 100%;
+        font-size: 10px;
+        height: 10px;
+        position: absolute;
+        top: 100%;
+        right: 120%;
+    }
+    
+    p.error-message-lastname{
+        width: 100%;
+        font-size: 10px;
+        height: 10px;
+        position: absolute;
+        top: 100%;
+       left: 50%;
+    }
+    
+    p.error-message-info{  
+        font-size: 10px;
+        position: absolute;
+        top: 40%;
+        
+    }
+    
+    .info{
+        gap: 20px;
+        position: relative;
+    }
+    
+   
+    
+    .info label{ 
+        font-size: 1rem;
+       
+    }
+    
+    .grp{
+       font-size: 0.8rem;
+        gap: 7px;
+       
+    
+    }
+    
+  }
+
+  @media (max-width: 500px) {
+    .form-contact{
+       
+     padding: 20px 10%;
+    margin-top: 3%;    
+    }
+    
+    .form-contact-img{
+        width: 6%;
+        left: 55%;
+    }
+    
+    .form-contact h2{
+       margin-bottom: 2%;
+       font-size: 2rem;
+
+    }
+    
+    .form-contact p{
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-bottom: 5%;
+    }
+    
+    .name, .contact{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 50%;
+        gap: 35px;
+        margin-bottom: 10%;
+    }
+    
+    .input-primary {
+        font-size: 1.5rem;
+        padding: 4%;
+     
+    }
+    
+    .input-primary::placeholder{
+        font-size: 1.1rem;  
+    }
+    
+    p.error-message{
+        width: 120px;
+        font-size: 10px;
+        height: 10px;
+        position: absolute;
+        top: 35%;
+        right: -8%;
+    }
+    
+    p.error-message-lastname{
+        width: 120px;
+        font-size: 10px;
+        height: 10px;
+        position: absolute;
+        top: 100%;
+       left: -10%;
+    }
+    
+    p.error-message-info{  
+        font-size: 9px;
+        position: absolute;
+        top: 40%;
+        
+    }
+    
+    .info{
+        gap: 20px;
+        position: relative;
+    }
+    
+   
+    
+    .info label{ 
+        font-size: 0.8rem;
+       
+    }
+
+    .info textarea {
+        width: 110%;
+    }
+    
+    .grp{
+       font-size: 0.7rem;
+        gap: 7px;
+       
+    
+    }
+    
+    .button-primary {
+       
+       
+        padding: 17px 64px;
+      
+        font-size: 1.5rem;
+       
+    }
+   
+    
+  }

@@ -74,7 +74,7 @@ const FormContact = () => {
         }}
       />
       <h2>Dentissima Clinique</h2>
-      <p>Solicita o programare</p>
+      <p>Solicită o programare</p>
 
       <div className="name">
         <input
@@ -97,7 +97,7 @@ const FormContact = () => {
       <div className="contact">
         <input
           type="phone"
-          placeholder="Numar de telefon"
+          placeholder="Număr de telefon"
           className={`input-primary ${formValidation.phone && "error"}`}
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
@@ -114,8 +114,8 @@ const FormContact = () => {
 
       <div className="info">
         <label htmlFor="">
-          Va rugam sa ne spune-ti problema dumneavostra si un interval orar{" "}
-          <br /> in care a-ti fi disponibil sa fiti programat
+          Vă rugăm să ne spune-ți problema dumneavoastră și un interval orar{" "}
+          <br /> în care a-ți fi disponibil să fiți programat
         </label>
         <textarea
           name="message"
@@ -136,7 +136,7 @@ const FormContact = () => {
             }}
           >
             {" "}
-            Sunt de acord cu politica de confidentialitate a datelor
+            Sunt de acord cu politica de confidențialitate a datelor
           </a>
         </div>
         <button
