@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./FormContact.css";
 import emailJs from "@emailjs/browser";
 import { validateForm } from "./formValidator";
-import cross_icon from "../../Components/Assets/cross_icon.png";
+import close_icon from "../../Components/Assets/close_icon.svg";
 import { useNavigate } from "react-router-dom";
 import GDRP from "../../Components/Assets/GDRP.pdf";
 import { ToastContainer, toast } from "react-toastify";
@@ -62,7 +62,7 @@ const FormContact = () => {
   return (
     <form className="form-contact" onSubmit={handleSubmit}>
       <img
-        src={cross_icon}
+        src={close_icon}
         alt=""
         className="form-contact-img"
         onClick={() => {
