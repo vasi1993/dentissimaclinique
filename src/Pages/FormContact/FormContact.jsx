@@ -4,8 +4,9 @@ import emailJs from "@emailjs/browser";
 import { validateForm } from "./formValidator";
 import cross_icon from "../../Components/Assets/cross_icon.png";
 import { useNavigate } from "react-router-dom";
-
-const GRPD_FILE = "http://localhost:3000/form/CV.doc";
+import GDRP from "../../Components/Assets/GDRP.pdf";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const FormContact = () => {
   const [name, setName] = useState("");
@@ -13,19 +14,22 @@ const FormContact = () => {
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [gdpr, setGdpr] = useState(false);
   const [formValidation, setFormValidation] = useState({
     name: "",
     lastname: "",
     phone: "",
     message: "",
+    gdpr: true,
     isValid: true,
   });
 
   const navigate = useNavigate();
+  const notify = () => toast("Solicitare trimisa!");
 
   useEffect(() => {
-    setFormValidation(validateForm(name, lastname, phone, message));
-  }, [name, lastname, phone, message]);
+    setFormValidation(validateForm(name, lastname, phone, message, gdpr));
+  }, [name, lastname, phone, message, gdpr]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -52,17 +56,9 @@ const FormContact = () => {
       .catch((error) => {
         console.error("error", error);
       });
+    notify();
   };
 
-  const downloadFile = (url) => {
-    const fileName = url.split("/").pop();
-    const aTag = document.createElement("a");
-    aTag.href = url;
-    aTag.setAttribute("download", fileName);
-    document.body.appendChild(aTag);
-    aTag.click();
-    aTag.remove();
-  };
   return (
     <form className="form-contact" onSubmit={handleSubmit}>
       <img
@@ -80,7 +76,7 @@ const FormContact = () => {
         <input
           type="text"
           placeholder="Nume"
-          className={`input-primary ${formValidation.name && "error"}`}
+          className="input-primary"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
@@ -88,7 +84,7 @@ const FormContact = () => {
         <input
           type="text"
           placeholder="Prenume"
-          className={`input-primary ${formValidation.lastname && "error"}`}
+          className="input-primary"
           value={lastname}
           onChange={(e) => setLastname(e.target.value)}
         />
@@ -98,7 +94,7 @@ const FormContact = () => {
         <input
           type="phone"
           placeholder="Număr de telefon"
-          className={`input-primary ${formValidation.phone && "error"}`}
+          className="input-primary"
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
         />
@@ -122,21 +118,24 @@ const FormContact = () => {
           id=""
           cols={40}
           rows={5}
-          className={`input-primary ${formValidation.message && "error"}`}
+          className="input-primary"
           placeholder=" "
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         ></textarea>
         <p className="error-message-info">{formValidation.message}</p>
         <div className="grp">
-          <input type="checkbox" />
-          <label
-            onClick={() => {
-              downloadFile(GRPD_FILE);
-            }}
-          >
+          <input
+            type="checkbox"
+            value={gdpr}
+            onChange={(e) => setGdpr(e.target.checked)}
+          />
+          <label>
             {" "}
-            Sunt de acord cu politica de confidențialitate a datelor
+            Sunt de acord cu politica de confidențialitate a datelor.{" "}
+            <a href={GDRP} download="GDRP" className="grp-span">
+              Click aici
+            </a>
           </label>
         </div>
         <button
@@ -146,6 +145,7 @@ const FormContact = () => {
         >
           Trimite
         </button>
+        <ToastContainer />
       </div>
     </form>
   );

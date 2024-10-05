@@ -142,6 +142,10 @@ p.error-message-info{
     font-size: 1rem;
 }
 
+.grp .grp-span{
+    color: var(--color-green);
+}
+
 .button-primary {
    
     border-radius: 12px;

@@ -1,9 +1,10 @@
-export const validateForm = (name, lastname, phone, message) => {
+export const validateForm = (name, lastname, phone, message, gdpr) => {
     let nameErrorMessage = "";
     let lastnameErrorMessage = "";
     let phoneErrorMessage = "";
     let messageErrorMessage = "";
     let isFormValid = true;
+    
     
 
     if(name.length === 0) {
@@ -28,6 +29,10 @@ export const validateForm = (name, lastname, phone, message) => {
     } else if (name.length > 11) {
         nameErrorMessage = "Trebuie sa contina 11 caractere";
         isFormValid= false;
+    }
+    
+    if(gdpr===false){
+        isFormValid=false;
     }
 
     return{
