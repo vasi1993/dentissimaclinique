@@ -260,7 +260,8 @@ p.error-message-info{
     }
     
     .form-contact-img{
-        width: 6%;
+        width: 4%;
+        max-width: 6%;
         left: 55%;
     }
     
@@ -337,10 +338,12 @@ p.error-message-info{
     }
     
     .grp{
-       font-size: 0.7rem;
-        gap: 7px;
-       
-    
+     
+        gap: 5px;
+    }
+
+    .grp label {
+        font-size: 0.6rem;
     }
     
     .button-primary {
