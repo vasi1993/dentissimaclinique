@@ -22,6 +22,7 @@ background: linear-gradient(180deg, #FFFFFF 19%, #CBCBCB 87%, #F2F2F2 100%, #00B
 .form-contact-img{
     position: relative;
     left: 30%;
+    width: 30px;
 }
 
 .form-contact h2{
@@ -260,7 +261,7 @@ p.error-message-info{
     }
     
     .form-contact-img{
-        width: 4%;
+        width: 20px;
         max-width: 6%;
         left: 55%;
     }
@@ -287,15 +288,16 @@ p.error-message-info{
     }
     
     .input-primary {
-        font-size: 1.5rem;
-        padding: 4%;
+        font-size: 1.4rem;
+        padding: 10% 15%;
      
     }
     
     .input-primary::placeholder{
         font-size: 1.1rem;  
     }
-    
+
+
     p.error-message{
         width: 120px;
         font-size: 10px;
@@ -335,6 +337,7 @@ p.error-message-info{
 
     .info textarea {
         width: 110%;
+        height: 150px;
     }
     
     .grp{
