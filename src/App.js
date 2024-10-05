@@ -1,9 +1,6 @@
 import React from 'react';
 import './App.css';
 
-import Footer from './Components/Footer/Footer';
-
-import Navbar from './Components/Navbar/Navbar';
 
 import { Route, Routes } from 'react-router-dom';
 import FormContact from './Pages/FormContact/FormContact';
@@ -24,7 +21,7 @@ function App() {
         <Route path='/form' element={<FormContact/>}/>
         <Route path='/youknow' element={<YouKnow/>}/>
       </Routes>
-      <Footer/>
+     
     </div>
   );
 }

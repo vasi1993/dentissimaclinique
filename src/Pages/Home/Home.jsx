@@ -11,6 +11,7 @@ import Modal from "../../Components/Modal/Modal";
 
 import Services from "../../Components/Services/Services";
 import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,6 +32,7 @@ const Home = () => {
       <HeroContact />
       <Medic />
       <Location />
+      <Footer />
       <Modal onClose={closeModal} isOpen={isOpen} />
     </div>
   );

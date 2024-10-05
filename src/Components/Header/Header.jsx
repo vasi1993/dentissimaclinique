@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import "./Header.css";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";

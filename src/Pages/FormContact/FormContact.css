@@ -130,11 +130,16 @@ p.error-message-info{
 
 .grp{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 8px;
    
 
+}
+
+.grp label{
+    text-align: center;
+    font-size: 1rem;
 }
 
 .button-primary {

@@ -4,7 +4,6 @@ import logo1 from "../Assets/logo1.jpg";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useNavigate } from "react-router-dom";
-import logo_dentissima from "../Assets/logodentissima.jpg";
 
 const Navbar = () => {
   const [, setMenu] = useState("home");
@@ -59,7 +58,7 @@ const Navbar = () => {
         </ul>
 
         <div className="nav-programare">
-          <a onClick={() => navigate("/form")}>PROGRAMEAZĂ-TE</a>
+          <p onClick={() => navigate("/form")}>PROGRAMEAZĂ-TE</p>
         </div>
       </div>
     </nav>

@@ -63,7 +63,7 @@
 
 }
 
-.nav-programare a{
+.nav-programare p{
     margin: 0 -3rem;
     text-decoration: none;
     background: var(--color-green);
@@ -75,7 +75,7 @@
     transition: .5s ease;
 }
 
-.nav-programare a:hover{
+.nav-programare p:hover{
     color: #fff;
     background: var(--color-black);
     transform: scale(1.05);

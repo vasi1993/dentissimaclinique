@@ -130,14 +130,14 @@ const FormContact = () => {
         <p className="error-message-info">{formValidation.message}</p>
         <div className="grp">
           <input type="checkbox" />
-          <a
+          <label
             onClick={() => {
               downloadFile(GRPD_FILE);
             }}
           >
             {" "}
             Sunt de acord cu politica de confidențialitate a datelor
-          </a>
+          </label>
         </div>
         <button
           disabled={!formValidation.isValid}
