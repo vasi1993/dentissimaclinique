@@ -23,7 +23,7 @@ const Header = () => {
               className="header-mobile-button header-ancor"
               onClick={() => navigate("/form")}
             >
-              PROGRAMEAZA-TE
+              PROGRAMEAZĂ-TE
             </button>
           </div>
         </div>
@@ -32,9 +32,9 @@ const Header = () => {
         <div className="header-container-programare">
           <h1>Programează o consultație</h1>
           <p>
-            La Dentissima combinăm cea mai recentă tehnologie cu experiența
-            profesioniștilor noștri, pentru a garanta tratamente eficiente cu
-            rezultate optime.
+            Suntem aici pentru a transforma fiecare vizită la dentist într-o
+            experiență pozitivă, ajutându-te să îți păstrezi zâmbetul
+            strălucitor și sănătos pe termen lung.
           </p>
           <button
             onClick={() => navigate("/form")}
@@ -89,11 +89,10 @@ const Header = () => {
           <h1>Contactează-ne</h1>
           <a href="tel:(+)40364566544">
             {" "}
-            <FaPhoneAlt /> 0756999791
+            <FaPhoneAlt /> 0364566554
           </a>
           <p>
-            Noi suntem specialiști în realizarea zâmbetelor perfecte, oferind
-            ingrijire profesionala dentara.
+            Dentissima Clinique – Îngrijire avansată pentru un zâmbet de durată.
           </p>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./Navbar.css";
-import logo1 from "../Assets/logo1.jpg";
+
+import logo3 from "../Assets/logo3.jpg";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useNavigate } from "react-router-dom";
@@ -24,7 +25,7 @@ const Navbar = () => {
       <div className="navbar">
         <div className="nav-logo">
           <a href="/">
-            <img onClick={() => navigate("/")} src={logo1} alt="logo" />
+            <img onClick={() => navigate("/")} src={logo3} alt="logo" />
           </a>
         </div>
         <RiMenu3Line onClick={openMenu} className="nav-mob-open" />
