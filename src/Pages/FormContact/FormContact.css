@@ -42,18 +42,59 @@ text-align: center;
 }
 
 .name, .contact{
-    width: 50%;
+    width: 70%;
     height: 80%;
-    position: relative;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
     margin-bottom: 2%;
+}
+
+.name-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+ 
+    position: relative;
+}
+
+.name-input-last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    position: relative;
+}
+
+.contact-phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    position: relative;
+}
+
+.contact-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    position: relative;
 }
 
 .input-primary {
     font-size: 1.7rem;
+    width: 100%;
     resize: none;
     outline: 0;
     border: 0;
@@ -61,7 +102,7 @@ text-align: center;
     text-shadow: var(--shadow-text);
     filter: var(--shadow-img);
     text-align: center;
-    padding: 2%;
+    padding: 4%;
     color: black;
 }
 
@@ -78,9 +119,8 @@ p.error-message{
     line-height: 19px;
     color: #af0e11;
     height: 14px;
-    position: absolute;
-    top: 100%;
-    right: 70%;
+    
+   
 }
 
 p.error-message-lastname{
@@ -90,9 +130,8 @@ p.error-message-lastname{
     line-height: 19px;
     color: #af0e11;
     height: 14px;
-    position: absolute;
-    top: 100%;
-    right: 10%;
+  
+    
 }
 
 p.error-message-info{
@@ -103,7 +142,7 @@ p.error-message-info{
     color: #af0e11;
     height: 14px;
     position: absolute;
-    top: 40%;
+    top: 20%;
     
 }
 
@@ -114,13 +153,15 @@ p.error-message-info{
     align-items: center;
     gap: 10px;
     position: relative;
+    width: 70%;
 }
 
 .info textarea{
     resize: none;
     outline: none;
     border: none;
-    
+    width: 80%;
+    height: 180px;
     border-radius: 4px;
 }
 
@@ -166,6 +207,8 @@ p.error-message-info{
     opacity: 0.2;
   }
 
+
+
   @media (max-width: 800px) {
     .form-contact{
        
@@ -191,8 +234,8 @@ p.error-message-info{
     }
     
     .name, .contact{
-        width: 30%;
-        height: 50%;
+        width: 100%;
+       
         gap: 20px;
         margin-bottom: 6%;
     }
@@ -211,28 +254,26 @@ p.error-message-info{
       width: 100%;
         font-size: 10px;
         height: 10px;
-        position: absolute;
-        top: 100%;
-        right: 120%;
+   
+     
     }
     
     p.error-message-lastname{
         width: 100%;
         font-size: 10px;
         height: 10px;
-        position: absolute;
-        top: 100%;
-       left: 50%;
+      
     }
     
     p.error-message-info{  
         font-size: 10px;
         position: absolute;
-        top: 40%;
+        top: 20%;
         
     }
     
     .info{
+        width: 100%;
         gap: 20px;
         position: relative;
     }
@@ -253,7 +294,7 @@ p.error-message-info{
     
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     .form-contact{
        
      padding: 20px 10%;
@@ -281,16 +322,26 @@ p.error-message-info{
     .name, .contact{
         display: flex;
         flex-direction: column;
-        width: 30%;
-        height: 50%;
-        gap: 35px;
-        margin-bottom: 10%;
+        width: 100%;
+    
+     
+       
+      
+    }
+
+    .name-input, .name-input-last {
+        width: 80%;
+    }
+
+    .contact-phone, .contact-email{
+        width: 80%;
     }
     
     .input-primary {
+      
         font-size: 1.4rem;
-        padding: 10% 15%;
-     
+        padding: 4% 2%;
+     margin: 0;
     }
     
     .input-primary::placeholder{
@@ -302,24 +353,20 @@ p.error-message-info{
         width: 120px;
         font-size: 10px;
         height: 10px;
-        position: absolute;
-        top: 35%;
-        right: -8%;
+    
     }
     
     p.error-message-lastname{
         width: 120px;
         font-size: 10px;
         height: 10px;
-        position: absolute;
-        top: 100%;
-       left: -10%;
+    
     }
     
     p.error-message-info{  
         font-size: 9px;
         position: absolute;
-        top: 40%;
+        top: 20%;
         
     }
     
@@ -336,8 +383,8 @@ p.error-message-info{
     }
 
     .info textarea {
-        width: 110%;
-        height: 150px;
+        width: 100%;
+        height: 130px;
     }
     
     .grp{

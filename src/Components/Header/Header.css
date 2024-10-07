@@ -16,12 +16,14 @@
 .header-main{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 100%;
     gap: 20px;
     text-align: center;
   position: absolute;
-  top: 30%;
+  top: 5%;
   left: 1%;
 }
 .header-main h1{
@@ -36,22 +38,38 @@
     color: #fff;
 }
 
+.header-main-service{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header-main-button{
-    width: 40%;
-    height: 12%;
-    position: relative;
-    left: 30%;
-    padding-top: 0.8rem;
+   
+    width: 70%;
+    padding: 1rem;
    background: transparent;
    color: #fff;
    font-size: 1.5rem;
    font-weight: 750;
    cursor: pointer;
    border: solid 3px;
+ 
 }
 
-.header-main-button p {
-    font-size: 1.5rem;
+
+
+.header-mobile-button{
+    display: none;
+    width: 70%;
+    padding: 1rem;
+   background: transparent;
+   color: #fff;
+   font-size: 1.5rem;
+   font-weight: 750;
+   cursor: pointer;
+   border: solid 3px;
 }
 
 .header-container{
@@ -213,9 +231,18 @@ color: black;
 
 @media(max-width:1050px){
     .header-main-button{
-        width: 50%;
-        height: 12%;
-        left: 25%;
+        width: 80%;
+        display: none;
+        
+      
+    }
+
+    .header-mobile-button{
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+      
     }
 
     .header-container-programare h1{
@@ -248,6 +275,10 @@ color: black;
         width: 100%;
         height: 100%;
     }
+
+  .header-mobile-button{
+    width: 60%;
+  }
  
 
     .header-image{
@@ -261,8 +292,8 @@ color: black;
         height: 100%;
         gap: 30px;
         position: absolute;
-        top: 20%;
-        left: 0;
+        top: 10%;
+     
         text-align: center;
        
     }
@@ -382,8 +413,8 @@ color: black;
           height: 100%;
           gap: 20px;
           position: absolute;
-          top: 20%;
-          left: 0;
+          top: 5%;
+         
           text-align: center;
          
       }
@@ -396,15 +427,18 @@ color: black;
         font-size: 2rem;
       }
 
-      .header-main-button{
-        width: 50%;
-        height: 23%;
+   
+      .header-mobile-button{
+        width: 70%;
+        padding: 3%;
+        
        
     }
 
-    .header-main-button p {
-        font-size: 1.5rem;
+    .header-ancor{
+        font-size: 1.3rem;
     }
+ 
 
 
     .header-container{
@@ -461,14 +495,14 @@ color: black;
         font-size: 1.5rem;
       }
 
-      .header-main-button{
-        padding: 4% 2%;
-        width: 50%;
+      .header-mobile-button{
+        padding: 3%;
+        width: 80%;
        
     }
 
-    .header-main-button p{
-        font-size: 1.3rem;
+    .header-ancor{
+        font-size: 1.2rem;
     }
 
   
@@ -483,8 +517,8 @@ color: black;
 @media(max-width:415px){
     
     .header-main-button{
-        padding: 5% 2%;
-        height: 20%;
+        padding: 3%;
+       
        
     }
 
@@ -492,11 +526,8 @@ color: black;
         font-size: 1.1rem;
     }
 
-}
-
-@media(max-width:415px){
-
-    .header-main-button p{
-        font-size: 0.9rem;
+    .header-ancor{
+        font-size: 1rem;
     }
+
 }

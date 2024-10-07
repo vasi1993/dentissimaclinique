@@ -73,39 +73,48 @@ const FormContact = () => {
       <p>Solicită o programare</p>
 
       <div className="name">
-        <input
-          type="text"
-          placeholder="Nume"
-          className="input-primary"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-        <p className="error-message">{formValidation.name}</p>
-        <input
-          type="text"
-          placeholder="Prenume"
-          className="input-primary"
-          value={lastname}
-          onChange={(e) => setLastname(e.target.value)}
-        />
-        <p className="error-message-lastname">{formValidation.lastname}</p>
+        <div className="name-input">
+          <input
+            type="text"
+            placeholder="Nume"
+            className="input-primary"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+          <p className="error-message">{formValidation.name}</p>
+        </div>
+        <div className="name-input-last">
+          <input
+            type="text"
+            placeholder="Prenume"
+            className="input-primary"
+            value={lastname}
+            onChange={(e) => setLastname(e.target.value)}
+          />
+          <p className="error-message-lastname">{formValidation.lastname}</p>
+        </div>
       </div>
       <div className="contact">
-        <input
-          type="phone"
-          placeholder="Număr de telefon"
-          className="input-primary"
-          value={phone}
-          onChange={(e) => setPhone(e.target.value)}
-        />
-        <p className="error-message">{formValidation.phone}</p>
-        <input
-          type="email"
-          placeholder="Adresa de email"
-          className="input-primary"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
+        <div className="contact-phone">
+          <input
+            type="phone"
+            placeholder="Număr de telefon"
+            className="input-primary"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+          />
+          <p className="error-message">{formValidation.phone}</p>
+        </div>
+        <div className="contact-email">
+          <input
+            type="email"
+            placeholder="Adresa de email"
+            className="input-primary"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <p className="error-message"></p>
+        </div>
       </div>
 
       <div className="info">

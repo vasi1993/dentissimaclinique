@@ -3,17 +3,29 @@ import "./Header.css";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <div className="header" id="home">
       <div className="header-image">
         <div className="header-main">
           <h1>DENTISSIMA CLINIQUE</h1>
           <p>zâmbetul te definește</p>
-          <AnchorLink href="#service" className="header-main-button">
-            <p>VEZI SERVICIILE OFERITE</p>
-          </AnchorLink>
+          <div className="header-main-service">
+            <button className="header-main-button">
+              <AnchorLink href="#service" className="header-ancor">
+                VEZI SERVICIILE OFERITE
+              </AnchorLink>
+            </button>
+            <button
+              className="header-mobile-button header-ancor"
+              onClick={() => navigate("/form")}
+            >
+              PROGRAMEAZA-TE
+            </button>
+          </div>
         </div>
       </div>
       <div className="header-container">
@@ -24,8 +36,12 @@ const Header = () => {
             profesioniștilor noștri, pentru a garanta tratamente eficiente cu
             rezultate optime.
           </p>
-          <button type="button" className="header-btn">
-            <a href="tel:(+)40364566544">Vreau o programare </a>
+          <button
+            onClick={() => navigate("/form")}
+            type="button"
+            className="header-btn"
+          >
+            Vreau o programare
             <FaArrowRightLong className="arrow-btn" />
           </button>
         </div>
@@ -46,7 +62,7 @@ const Header = () => {
               <p>Vineri</p>
             </div>
             <div className="time">
-              <p>09:00 - 17:00</p>
+              <p>09:00 - 20:00</p>
             </div>
           </div>
           <hr />
@@ -55,7 +71,7 @@ const Header = () => {
               <p>Sâmbătă</p>
             </div>
             <div className="time">
-              <p>Inchis</p>
+              <p>Închis</p>
             </div>
           </div>
           <hr />
@@ -64,7 +80,7 @@ const Header = () => {
               <p>Duminică</p>
             </div>
             <div className="time">
-              <p>Inchis</p>
+              <p>Închis</p>
             </div>
           </div>
         </div>
