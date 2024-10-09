@@ -34,13 +34,14 @@
    max-width: 90%;
    height: auto;
    border-radius: 45%;
+   margin: auto;
  
 
 }
 
 .footer-logo-description{
     font-size: 1rem;
-    text-align: left;
+    text-align: center;
     text-shadow: var(--shadow-text);
    
 

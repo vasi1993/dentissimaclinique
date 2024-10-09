@@ -21,9 +21,8 @@ const Footer = () => {
           </AnchorLink>
 
           <p className="footer-logo-description">
-            La Dentissima Clinique combinăm cea mai recentă tehnologie cu
-            experiența profesioniștilor noștri, pentru a garanta tratamente
-            eficiente cu rezultate optime.
+            Alege Dentissima Clinique pentru o îngrijire dentară de excepție,
+            bazată pe încredere, profesionalism și tehnologie de vârf!
           </p>
         </div>
 

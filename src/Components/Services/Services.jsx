@@ -12,10 +12,8 @@ const Services = (props) => {
       <div className="services-title">
         <TitleItem
           subtitle="SERVICII OFERITE"
-          title="Vă punem la dispoziție cele mai moderne tehnologii și materiale dentare."
-          description="Vă oferim o abordare complexă, multidisciplinară a tratamentului stomatologic.
-
-Astfel, clinica noastră vă pune la dispoziție o gamă largă de servicii stomatologice, de la profilaxie până la estetica dentară și implantologie, toate prestate la cel mai înalt nivel, de către echipa noastra, cu multă dedicație, implicare și drag pentru sanatatea dintilor dumneavoastra."
+          title="Ne dedicăm sănătății zâmbetului tău oferind o gamă completă de servicii stomatologice"
+          description="Fie că este vorba de prevenție, tratamente complexe sau reabilitarea dentară, la noi găsești tot ce ai nevoie pentru a-ți menține sănătatea orală și a-ți reda încrederea în zâmbetul tău. Alege Dentissima Clinique pentru o îngrijire dentară de calitate, într-un mediu confortabil și prietenos!"
         />
       </div>
 
