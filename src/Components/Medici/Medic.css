@@ -4,8 +4,10 @@
 
 .medic-description{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 5rem;
+    justify-content: center;
+    align-items: center;
     
 }
 
