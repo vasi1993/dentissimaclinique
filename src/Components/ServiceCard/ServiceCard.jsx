@@ -23,13 +23,13 @@ const ServiceCard = (props) => {
       </div>
       <Modal
         name={props.name}
-        image={props.modalimage}
+        /* image={props.modalimage}
+        modaldoctor={props.modaldoctor}       */
         desc={props.modaldescription}
         phone={props.phone}
         onClose={closeModal}
         isOpen={isOpen}
         modalprogramare={props.modalprogramare}
-        modaldoctor={props.modaldoctor}
       />
     </>
   );

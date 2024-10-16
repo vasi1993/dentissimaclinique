@@ -31,11 +31,7 @@ const Navbar = () => {
         <RiMenu3Line onClick={openMenu} className="nav-mob-open" />
         <ul ref={menuRef} className="nav-menu">
           <RiCloseLine onClick={closeMenu} className="nav-mob-close" />
-          <li onClick={closeMenu}>
-            <AnchorLink className="anchor-link" href="#home">
-              <p onClick={() => setMenu("home")}>Acasă</p>
-            </AnchorLink>
-          </li>
+
           <li onClick={closeMenu}>
             <AnchorLink className="anchor-link" offset={50} href="#about">
               <p onClick={() => setMenu("about")}>Despre Noi</p>

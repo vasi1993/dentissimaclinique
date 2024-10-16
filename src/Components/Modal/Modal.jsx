@@ -26,8 +26,8 @@ const Modal = (props) => {
           </div>
           <h1>{props.name}</h1>
           <p className="modal-card-desc">{props.desc}</p>
-          <img src={props.image} alt="" />
-          <p className="modal-card-doctor">{props.modaldoctor}</p>
+          {/* <img src={props.image} alt="" />
+          <p className="modal-card-doctor">{props.modaldoctor}</p>   */}
           <p className="modal-card-programare">{props.modalprogramare}</p>
           <a href="tel:(+)40364566544" className="modal-card-phone">
             {" "}

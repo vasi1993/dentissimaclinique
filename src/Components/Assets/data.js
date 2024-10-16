@@ -14,7 +14,7 @@ let data_service = [
     {
         id:1,
         image:  <FaTooth />,
-        name: "Odontoterapie",
+        name: "Estetică dentară",
         description: "Prevenirea, diagnosticarea și tratamentul problemelor dentare, incluzând intervenții care vizează sănătatea dinților și gingiilor.",
         modalimage: andra_img,
         modaldescription: "La Dentissima Clinique, zâmbetul tău este prioritatea noastră. Odontoterapia îmbină știința și arta pentru a îmbunătăți aspectul dinților și al zâmbetului tău, oferindu-ți o încredere sporită și un zâmbet de invidiat. Fie că dorești să corectezi imperfecțiuni minore sau să-ți transformi complet zâmbetul, echipa noastră de specialiști te va ghida pas cu pas.",
@@ -50,7 +50,7 @@ let data_service = [
         id:4,
         image: <TbDental />,
         name: "Chirurgie Orală",
-        description: "Chirurgia orală cuprinde o gamă largă de proceduri care implică intervenții chirurgicale la nivelul cavității bucale, maxilarului și dinților. ",
+        description: "Cuprinde o gamă largă de proceduri care implică intervenții chirurgicale la nivelul cavității bucale, maxilarului și dinților. ",
         modalimage: razvan_img,
         modaldescription: "La Dentissima Clinique, oferim servicii de chirurgie orală cu ajutorul unei echipe de specialiști bine pregătiți și cu experiență, folosind cele mai moderne tehnici și echipamente pentru a asigura siguranța și confortul pacienților noștri. Chirurgia orală este esențială pentru tratarea unor afecțiuni complexe care nu pot fi rezolvate prin metode stomatologice obișnuite, iar scopul nostru este să îți oferim tratamente eficiente și minim invazive.",
         modalprogramare: "Programează o consultație la Dentissima Clinique și descoperă cum poți avea zâmbetul perfect la care ai visat mereu!",
