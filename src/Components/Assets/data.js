@@ -1,19 +1,21 @@
-import { GiTooth } from "react-icons/gi"; 
-import { TbDental } from "react-icons/tb"; 
-import { TbDentalOff } from "react-icons/tb"; 
-import { TbDentalBroken } from "react-icons/tb"; 
-import { FaTooth } from 'react-icons/fa'
-import razvan_img from './dr-razvan.png'
+
+import razvan_img from './dr-razvan.jpg'
 import andra_img from './dr-andra.jpg'
 import laura_img from './dr-laura.jpg'
 import roxana_img from './dr-roxana.jpg'
 import alexandra_img from './dr-alexandra.jpg'
+import pedondotie_icon from './pedondotie.jpg'
+import estetica_icon from './estetica-dentara.jpg'
+import ortodontie_icon from './ortodontie.jpg'
+import endodontie_icon from './endodontie.jpg'
+import chirurgie_icon from './chirurgie-orala.jpg'
+import protetica_icon from './protetica.jpg'
 
 
 let data_service = [
     {
         id:1,
-        image:  <FaTooth />,
+        image:  estetica_icon,
         name: "Estetică dentară",
         description: "Prevenirea, diagnosticarea și tratamentul problemelor dentare, incluzând intervenții care vizează sănătatea dinților și gingiilor.",
         modalimage: andra_img,
@@ -25,7 +27,7 @@ let data_service = [
     },
     {
         id:2,
-        image: <GiTooth />,
+        image: ortodontie_icon,
         name: "Ortodonție",
         description: "Ortodonția se ocupă cu diagnosticarea, prevenirea și corectarea anomaliilor de poziție a dinților și maxilarelor." ,
         modalimage: alexandra_img,
@@ -37,7 +39,7 @@ let data_service = [
     },
     {
         id:3,
-        image: <FaTooth />,
+        image: pedondotie_icon,
         name: "Pedondoție",
         description: " Pedodonția, sau stomatologia pediatrică, se ocupă cu prevenția, diagnosticul și tratamentul afecțiunilor dentare la copii.",
         modalimage: roxana_img,
@@ -48,7 +50,7 @@ let data_service = [
     },
     {
         id:4,
-        image: <TbDental />,
+        image: chirurgie_icon,
         name: "Chirurgie Orală",
         description: "Cuprinde o gamă largă de proceduri care implică intervenții chirurgicale la nivelul cavității bucale, maxilarului și dinților. ",
         modalimage: razvan_img,
@@ -59,7 +61,7 @@ let data_service = [
     },
     {
         id:5,
-        image: <TbDentalBroken />,
+        image: endodontie_icon,
         name: "Endodonție",
         description: "Endodonția este o ramură a stomatologiei care se ocupă cu tratarea afecțiunilor pulpei dentare – nervul și țesutul moale din interiorul dintelui. " ,
         modalimage: andra_img,
@@ -70,7 +72,7 @@ let data_service = [
     },
     {
         id:6,
-        image:<TbDentalOff />,
+        image:protetica_icon,
         name: "Protetică Dentară",
         description: "Restaurarea și înlocuirea dinților pierduți sau deteriorați prin lucrări protetice, cum ar fi coroanele, punțile și protezele dentare. " ,
         modalimage: laura_img ,

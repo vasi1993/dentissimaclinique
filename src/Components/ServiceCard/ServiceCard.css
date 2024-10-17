@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 20px;
     border-radius: 5px;
    
 
@@ -14,13 +14,23 @@
 }
 
 .service-icon{
-    color: var(--color-green);
+
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 5% ;
-    font-size: 4rem;
+   margin: auto;
+   padding-top: 4%;
+    
+   
+}
+
+.service-icon img{
+    max-width: 200px;
+    width: 180px;
+    border-radius: 50%;
+    filter: var(--shadow-img);
+    margin: auto;
 }
 
 .service-card-name{
@@ -91,6 +101,13 @@ hr{
     
 }
 
+.service-icon img{
+    max-width: 150px;
+    width: 140px;
+    border-radius: 50%;
+    filter: var(--shadow-img);
+}
+
 .service-card-description{
     color: var(--color-grey);
     text-align: center;
@@ -122,7 +139,7 @@ hr{
     
 .service-icon{
   
-    margin-top: 7% ;
+    padding-top: 2%;
     font-size: 3rem;
 }
 

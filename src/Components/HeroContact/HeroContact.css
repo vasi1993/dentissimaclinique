@@ -86,7 +86,7 @@
 }
 
 .hero-contact-image{
-  width: 7%;
+  width: 10%;
  
 }
 
@@ -112,6 +112,11 @@
 
 
 @media(max-width:500px) {
+  .hero-contact-image{
+    width: 13%;
+ 
+   
+  }
   .hero-contact-button{
     padding: 2% 2%;
   }

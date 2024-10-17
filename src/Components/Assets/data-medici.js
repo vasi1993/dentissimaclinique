@@ -1,7 +1,7 @@
 import andra_img from './dr-andra.jpg'
 import laura_img from './dr-laura.jpg'
 import roxana_img from './dr-roxana.jpg'
-import razvan_img from './dr-razvan.png'
+import razvan_img from './dr-razvan.jpg'
 import alexandra_img from './dr-alexandra.jpg'
 
 
@@ -16,13 +16,13 @@ let data_medici = [
    { id:2,
     image:laura_img,
     name: "Dr. Buia Laura",
-    profession: 'Stomatologie ',
+    profession: 'Stomatologie Generală ',
    },
 
    { id:3,
       image:roxana_img,
       name: "Dr. Tiplea Roxana",
-      profession: 'Stomatologie ',
+      profession: 'Stomatologie Generală ',
      },
 
      { id:4,

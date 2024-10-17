@@ -13,7 +13,9 @@ const ServiceCard = (props) => {
   return (
     <>
       <div className="service-card">
-        <div className="service-icon">{props.image}</div>
+        <div className="service-icon">
+          <img src={props.image} alt="" />
+        </div>
         <h1 className="service-card-name">{props.name}</h1>
         <p className="service-card-description">{props.description}</p>
         <hr />
