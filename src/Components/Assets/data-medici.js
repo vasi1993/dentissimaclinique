@@ -3,6 +3,7 @@ import laura_img from './dr-laura.jpg'
 import roxana_img from './dr-roxana.jpg'
 import razvan_img from './dr-razvan.jpg'
 import alexandra_img from './dr-alexandra.jpg'
+import user_img from './user.png'
 
 
 
@@ -37,7 +38,7 @@ let data_medici = [
       profession: 'Ortodont',
      },
      { id:6,
-      image:razvan_img,
+      image: user_img,
       name: "Dr. Bogdan",
       profession: 'Chirurgie',
      },
