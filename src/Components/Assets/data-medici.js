@@ -39,7 +39,7 @@ let data_medici = [
      },
      { id:6,
       image: user_img,
-      name: "Dr. Bogdan",
+      name: "Dr. Bogdan Sandru",
       profession: 'Chirurgie',
      },
 
