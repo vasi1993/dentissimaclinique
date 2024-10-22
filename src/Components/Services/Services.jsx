@@ -4,7 +4,7 @@ import TitleItem from "../TitleItem/TitleItem";
 import ServiceCard from "../ServiceCard/ServiceCard";
 import data_service from "../Assets/data";
 
-const Services = (props) => {
+const Services = () => {
   const [serviceCard] = useState(data_service);
 
   return (

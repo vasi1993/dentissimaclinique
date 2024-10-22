@@ -2,7 +2,7 @@ import React from "react";
 import "./YouKnow.css";
 
 const YouKnow = () => {
-  return <div></div>;
+  return <div>stiati ca</div>;
 };
 
 export default YouKnow;
