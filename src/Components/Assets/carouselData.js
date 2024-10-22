@@ -1,32 +1,35 @@
-import hero1 from './hero1.jpg'
-import hero2 from './hero2.jpg'
-import hero3 from './hero3.jpg'
-import hero4 from './hero4.jpg'
-import hero5 from './hero5.jpg'
+
+import hero11 from './hero11.jpg'
+import hero22 from './hero22.jpg'
+import hero33 from './hero33.jpg'
+import hero44 from './hero44.jpg'
+import hero55 from './hero55.jpg'
+
+
 
 let slides = [
         {
-            "src": hero1,
+            "src": hero11,
             "alt" : "Image 1" 
         },
 
         {
-            "src": hero2,
+            "src": hero22,
             "alt" : "Image 2" 
         },
 
         {
-            "src": hero3,
+            "src": hero33,
             "alt" : "Image 3" 
         },
 
         {
-            "src": hero4,
+            "src": hero44,
             "alt" : "Image 4" 
         },
 
         {
-            "src": hero5,
+            "src": hero55,
             "alt" : "Image 5" 
         }
     ]
