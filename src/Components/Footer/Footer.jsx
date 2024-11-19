@@ -41,7 +41,7 @@ const Footer = () => {
               <img src={instagram_icon} alt="instagram-icon" />
             </a>
             <a
-              href="dentissimaclinique@gmail.com"
+              href="mailto:dentissimaclinique@gmail.com"
               className="footer-social-icon"
             >
               <img src={gmail_icon} alt="instagram-icon" />

@@ -55,12 +55,12 @@
    font-weight: 750;
    cursor: pointer;
    border: solid 3px;
-   transition: color 0.2s;
+   transition: scale 0.2s ease-in;
  
 }
 
 .header-main-button:hover{
-    color: var(--color-green);
+    scale: 1.1;
 }
 
 
@@ -131,13 +131,13 @@
     color: #fff;
     border-radius: 10px;
     cursor: pointer;
-    transition: color 0.2s;
+    transition: background-color 0.3s ease-in;
 
 }
 
 .header-btn:hover{
-    background: black;
-    color: var(--color-green);
+    background-color: black;
+    
     
 }
 
