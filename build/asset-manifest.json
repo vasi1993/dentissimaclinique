@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.13e4fefd.css",
+    "main.js": "/static/js/main.4bc88ff7.js",
+    "static/media/hero11.jpg": "/static/media/hero11.6068c9d4d10d0761001d.jpg",
+    "static/media/hero33.jpg": "/static/media/hero33.62ba633011977bfa2f90.jpg",
+    "static/media/hero55.jpg": "/static/media/hero55.288098ecb430b8fb050d.jpg",
+    "static/media/hero44.jpg": "/static/media/hero44.4bd4c41744b760d5796f.jpg",
+    "static/media/hero22.jpg": "/static/media/hero22.1a376e378907483ef3f9.jpg",
+    "static/media/chirurgie-orala.jpg": "/static/media/chirurgie-orala.c8e94553bd57bd21b8a5.jpg",
+    "static/media/estetica-dentara.jpg": "/static/media/estetica-dentara.ea7476df5bfa6cb70068.jpg",
+    "static/media/protetica.jpg": "/static/media/protetica.013986e8bf0aba4be670.jpg",
+    "static/media/hero_contact.jpg": "/static/media/hero_contact.5bdb60dd40380b33d657.jpg",
+    "static/media/endodontie.jpg": "/static/media/endodontie.8bf79c779d72bf5b9bfe.jpg",
+    "static/media/pedondotie.jpg": "/static/media/pedondotie.c9589566605b9202ff08.jpg",
+    "static/media/dr-roxana.jpg": "/static/media/dr-roxana.dc3349b679a4cf185e4e.jpg",
+    "static/media/ortodontie.jpg": "/static/media/ortodontie.cff68bb7538a525ab157.jpg",
+    "static/media/dr-razvan.jpg": "/static/media/dr-razvan.09712ca5313332fe4140.jpg",
+    "static/media/dr-alexandra.jpg": "/static/media/dr-alexandra.5b7b0b5840b87804344a.jpg",
+    "static/media/dr-bogdan.jpg": "/static/media/dr-bogdan.57065d5890dc0466cad0.jpg",
+    "static/media/GDRP.pdf": "/static/media/GDRP.05503c993e48f1cbd4a5.pdf",
+    "static/media/logo-header.jpg": "/static/media/logo-header.b40c141b575054b6a7cc.jpg",
+    "static/media/dr-laura.jpg": "/static/media/dr-laura.a7e9717613ffa3ea36ff.jpg",
+    "static/media/dr-andra.jpg": "/static/media/dr-andra.0798613d253c767bf24e.jpg",
+    "static/media/logo3.jpg": "/static/media/logo3.237ce6ee9d345f8b84af.jpg",
+    "static/media/anpc-sal.png": "/static/media/anpc-sal.04e76b824f5b93281595.png",
+    "static/media/anpc-sol.png": "/static/media/anpc-sol.f35066078b5433a526f8.png",
+    "static/media/instagram.svg": "/static/media/instagram.a0a9a83448ddb5827d70493a84d37806.svg",
+    "static/media/dental.svg": "/static/media/dental.f1a3327e0ac8747dcbfd171d8ad9d36b.svg",
+    "static/media/facebook.svg": "/static/media/facebook.1d8e0397525aadb52a029adc60908a02.svg",
+    "static/media/close_icon.svg": "/static/media/close_icon.c39ccb73e95d4c6da2e8a22151f162fd.svg",
+    "index.html": "/index.html",
+    "static/media/gmail.svg": "/static/media/gmail.147c77170af8d6c4b5667d09451723d2.svg",
+    "main.13e4fefd.css.map": "/static/css/main.13e4fefd.css.map",
+    "main.4bc88ff7.js.map": "/static/js/main.4bc88ff7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13e4fefd.css",
+    "static/js/main.4bc88ff7.js"
+  ]
+}
