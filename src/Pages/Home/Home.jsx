@@ -11,11 +11,13 @@ import Medic from "../../Components/Medici/Medic";
 import Services from "../../Components/Services/Services";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
+import Chatbot from "../../Components/Chatbot/Chatbot";
 
 const Home = () => {
   return (
     <div className="home">
       <Navbar />
+
       <Header />
       <About />
       <Services />
@@ -23,6 +25,7 @@ const Home = () => {
       <Medic />
       <Location />
       <Footer />
+      <Chatbot />
     </div>
   );
 };

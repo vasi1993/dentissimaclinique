@@ -23,6 +23,7 @@ background: linear-gradient(180deg, #FFFFFF 19%, #CBCBCB 87%, #F2F2F2 100%, #00B
     position: relative;
     left: 30%;
     width: 30px;
+    cursor: pointer;
 }
 
 .form-contact h2{
