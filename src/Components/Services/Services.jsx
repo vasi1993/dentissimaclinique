@@ -24,6 +24,7 @@ const Services = () => {
               key={item.id}
               id={item.id}
               image={item.image}
+              alt={item.name + " imagine serviciu"}
               name={item.name}
               description={item.description}
               modalimage={item.modalimage}
@@ -31,6 +32,7 @@ const Services = () => {
               phone={item.modalphone}
               modalprogramare={item.modalprogramare}
               modaldoctor={item.modaldoctor}
+              ariaLabel={`Deschide detalii pentru serviciul ${item.name}`}
             />
           );
         })}

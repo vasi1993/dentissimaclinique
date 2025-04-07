@@ -63,7 +63,8 @@ const FormContact = () => {
     <form className="form-contact" onSubmit={handleSubmit}>
       <img
         src={close_icon}
-        alt=""
+        aria-label="Închide fereastra"
+        alt="close"
         className="form-contact-img"
         onClick={() => {
           navigate("/");
@@ -76,44 +77,58 @@ const FormContact = () => {
         <div className="name-input">
           <input
             type="text"
+            aria-label="numele"
+            aria-describedby="name-error"
             placeholder="Nume"
             className="input-primary"
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
-          <p className="error-message">{formValidation.name}</p>
+          <p id="name-error" className="error-message">
+            {formValidation.name}
+          </p>
         </div>
         <div className="name-input-last">
           <input
             type="text"
+            aria-label="prenumele"
+            aria-describedby="lastname-error"
             placeholder="Prenume"
             className="input-primary"
             value={lastname}
             onChange={(e) => setLastname(e.target.value)}
           />
-          <p className="error-message-lastname">{formValidation.lastname}</p>
+          <p id="lastname-error" className="error-message-lastname">
+            {formValidation.lastname}
+          </p>
         </div>
       </div>
       <div className="contact">
         <div className="contact-phone">
           <input
-            type="phone"
+            type="tel"
+            aria-label="telefon"
+            aria-describedby="phone-error"
             placeholder="Număr de telefon"
             className="input-primary"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
           />
-          <p className="error-message">{formValidation.phone}</p>
+          <p id="phone-error" className="error-message">
+            {formValidation.phone}
+          </p>
         </div>
         <div className="contact-email">
           <input
             type="email"
+            aria-label="email"
+            aria-describedby="email-error"
             placeholder="Adresa de email"
             className="input-primary"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-          <p className="error-message"></p>
+          <p id="email-error" className="error-message"></p>
         </div>
       </div>
 
@@ -123,6 +138,7 @@ const FormContact = () => {
           <br /> în care a-ți fi disponibil să fiți programat
         </label>
         <textarea
+          aria-label="mesajul utilizatorului"
           name="message"
           id=""
           cols={40}
@@ -131,13 +147,17 @@ const FormContact = () => {
           placeholder=" "
           value={message}
           onChange={(e) => setMessage(e.target.value)}
+          aria-describedby="message-error"
         ></textarea>
-        <p className="error-message-info">{formValidation.message}</p>
+        <p id="message-error" className="error-message-info">
+          {formValidation.message}
+        </p>
         <div className="grp">
           <input
             type="checkbox"
             value={gdpr}
             onChange={(e) => setGdpr(e.target.checked)}
+            aria-label="Accept politica GDPR"
           />
           <label>
             {" "}
@@ -151,6 +171,7 @@ const FormContact = () => {
           disabled={!formValidation.isValid}
           type="submit"
           className="button-primary"
+          aria-label="trimite formular"
         >
           Trimite
         </button>

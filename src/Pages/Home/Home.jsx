@@ -1,5 +1,5 @@
 import "./Home.css";
-import React from "react";
+import React, { Suspense } from "react";
 
 import About from "../../Components/About/About";
 
@@ -11,7 +11,9 @@ import Medic from "../../Components/Medici/Medic";
 import Services from "../../Components/Services/Services";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
-import Chatbot from "../../Components/Chatbot/Chatbot";
+
+// Utilizare lazy loading pentru Chatbot pentru performanță
+const Chatbot = React.lazy(() => import("../../Components/Chatbot/Chatbot"));
 
 const Home = () => {
   return (
@@ -25,7 +27,9 @@ const Home = () => {
       <Medic />
       <Location />
       <Footer />
-      <Chatbot />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Chatbot />
+      </Suspense>
     </div>
   );
 };

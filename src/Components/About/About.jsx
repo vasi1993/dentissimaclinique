@@ -7,7 +7,7 @@ import slides from "../Assets/carouselData.js";
 
 const About = () => {
   return (
-    <div className="about" id="about">
+    <section className="about" id="about">
       <TitleItem
         subtitle="BUN VENIT LA DENTISSIMA CLINIQUE!"
         title="Despre noi"
@@ -44,7 +44,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

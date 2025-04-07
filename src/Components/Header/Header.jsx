@@ -15,13 +15,18 @@ const Header = () => {
           <p>Zâmbetul te definește</p>
           <div className="header-main-service">
             <button className="header-main-button">
-              <AnchorLink href="#service" className="header-ancor">
+              <AnchorLink
+                href="#service"
+                className="header-ancor"
+                aria-label="Vezi serviciile oferite"
+              >
                 VEZI SERVICIILE OFERITE
               </AnchorLink>
             </button>
             <button
               className="header-mobile-button header-ancor"
               onClick={() => navigate("/form")}
+              aria-label="Programează-te"
             >
               PROGRAMEAZĂ-TE
             </button>
@@ -40,6 +45,7 @@ const Header = () => {
             onClick={() => navigate("/form")}
             type="button"
             className="header-btn"
+            aria-label="Vreau o programare"
           >
             Vreau o programare
             <FaArrowRightLong className="arrow-btn" />
@@ -87,7 +93,7 @@ const Header = () => {
 
         <div className="header-container-contact">
           <h1>Contactează-ne</h1>
-          <a href="tel:(+)40364566544">
+          <a href="tel:(+)40364566544" aria-label="Sună la Dentissima Clinique">
             {" "}
             <FaPhoneAlt /> 0364566554
           </a>

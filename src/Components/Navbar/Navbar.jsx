@@ -28,9 +28,17 @@ const Navbar = () => {
             <img onClick={() => navigate("/")} src={logo3} alt="logo" />
           </a>
         </div>
-        <RiMenu3Line onClick={openMenu} className="nav-mob-open" />
+        <RiMenu3Line
+          onClick={openMenu}
+          className="nav-mob-open"
+          aria-label="Deschide meniul"
+        />
         <ul ref={menuRef} className="nav-menu">
-          <RiCloseLine onClick={closeMenu} className="nav-mob-close" />
+          <RiCloseLine
+            onClick={closeMenu}
+            className="nav-mob-close"
+            aria-label="Închide meniul"
+          />
 
           <li onClick={closeMenu}>
             <AnchorLink className="anchor-link" offset={50} href="#about">
