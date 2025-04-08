@@ -31,20 +31,26 @@ const Footer = () => {
             <a
               href="https://www.facebook.com/DentissimaClinique"
               className="footer-social-icon"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <img src={facebook_icon} alt="facebook-icon" />
+              <img src={facebook_icon} alt="Facebook Dentissima" />
             </a>
             <a
               href="https://www.instagram.com/dentissima.clinique/"
               className="footer-social-icon"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <img src={instagram_icon} alt="instagram-icon" />
+              <img src={instagram_icon} alt="Instagram Dentissima" />
             </a>
             <a
               href="mailto:dentissimaclinique@gmail.com"
               className="footer-social-icon"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <img src={gmail_icon} alt="instagram-icon" />
+              <img src={gmail_icon} alt="Trimite un email" />
             </a>
           </div>
 
@@ -52,14 +58,24 @@ const Footer = () => {
             <a
               href="https://anpc.ro/ce-este-sal/"
               className="footer-social-anpc-icon"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <img src={anpc_sal_image} alt="" />
+              <img
+                src={anpc_sal_image}
+                alt="Soluționare Alternativă a Litigiilor - ANPC"
+              />
             </a>
             <a
               href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=RO"
               className="footer-social-anpc-icon"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <img src={anpc_sol_image} alt="" />
+              <img
+                src={anpc_sol_image}
+                alt="Platforma SOL - Soluționarea Online a Litigiilor"
+              />
             </a>
           </div>
         </div>

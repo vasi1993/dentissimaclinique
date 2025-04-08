@@ -14,12 +14,16 @@ const ServiceCard = (props) => {
     <>
       <div className="service-card">
         <div className="service-icon">
-          <img src={props.image} alt="" />
+          <img src={props.image} alt={`Serviciu: ${props.name}`} />
         </div>
         <h1 className="service-card-name">{props.name}</h1>
         <p className="service-card-description">{props.description}</p>
         <hr />
-        <button onClick={() => setIsOpen(true)} className="service-button">
+        <button
+          onClick={() => setIsOpen(true)}
+          className="service-button"
+          aria-label={`Află mai multe despre serviciul ${props.name}`}
+        >
           Detalii <AiOutlineArrowRight />{" "}
         </button>
       </div>

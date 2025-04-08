@@ -9,7 +9,7 @@ const HeroContact = () => {
   return (
     <div className="hero-contact">
       <div className="hero-contact-image">
-        <img src={dental} alt="" />
+        <img src={dental} alt="Ilustrație consult stomatologic" />
       </div>
       <h1 className="hero-contact-title">
         {" "}

@@ -18,10 +18,18 @@ const Modal = (props) => {
   }, [props.isOpen]);
 
   return (
-    <div className={`${isOpen ? "modal-wrapper" : "modal-hiden"}`}>
-      <div className="modal-content">
+    <div
+      className={`${isOpen ? "modal-wrapper" : "modal-hiden"}`}
+      role="dialog"
+      aria-modal="true"
+    >
+      <div className="modal-content" tabIndex="-1">
         <div className="modal-card">
-          <div onClick={closeModal} className="close-button">
+          <div
+            onClick={closeModal}
+            className="close-button"
+            aria-label="Închide fereastra"
+          >
             <img src={CloseIcon} alt="close" />
           </div>
           <h1>{props.name}</h1>

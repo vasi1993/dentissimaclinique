@@ -17,7 +17,7 @@ const Medic = () => {
         {data_medici.map((item, i) => {
           return (
             <MedicCard
-              key={i}
+              key={item.id}
               id={item.id}
               image={item.image}
               name={item.name}
