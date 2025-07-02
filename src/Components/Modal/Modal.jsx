@@ -22,6 +22,8 @@ const Modal = (props) => {
       className={`${isOpen ? "modal-wrapper" : "modal-hiden"}`}
       role="dialog"
       aria-modal="true"
+      aria-labelledby="modal-title"
+      aria-describedby="modal-description"
     >
       <div className="modal-content" tabIndex="-1">
         <div className="modal-card">
@@ -37,8 +39,7 @@ const Modal = (props) => {
           {/* <img src={props.image} alt="" />
           <p className="modal-card-doctor">{props.modaldoctor}</p>   */}
           <p className="modal-card-programare">{props.modalprogramare}</p>
-          <a href="tel:(+)40364566544" className="modal-card-phone">
-            {" "}
+          <a href="tel:+40364566544" className="modal-card-phone">
             <FaPhoneAlt /> {props.phone}
           </a>
         </div>

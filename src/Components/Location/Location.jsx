@@ -33,7 +33,8 @@ const Location = () => {
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Responsive Google Maps"
+          title="Harta locației Dentissima Clinique din Turda"
+          aria-label="Harta locației Dentissima Clinique din Turda"
         ></iframe>
       </div>
     </div>

@@ -21,7 +21,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <nav className="nav">
+    <nav className="nav" aria-label="Navigație principală">
       <div className="navbar">
         <div className="nav-logo">
           <a href="/">

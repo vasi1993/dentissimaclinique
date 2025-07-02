@@ -12,12 +12,16 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Footer = () => {
   return (
-    <div className="footer-main">
-      <div className="footer">
+    <footer className="footer-main">
+      <section className="footer">
         <div className="footer-logo">
           <AnchorLink href="#home" className="logo-anchor">
-            {" "}
-            <img src={logo3} alt="" />
+            <img
+              src={logo3}
+              alt="Logo Dentissima Clinique"
+              aria-hidden="true"
+              loading="lazy"
+            />
           </AnchorLink>
 
           <p className="footer-logo-description">
@@ -33,6 +37,7 @@ const Footer = () => {
               className="footer-social-icon"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Profilul Facebook Dentissima Clinique"
             >
               <img src={facebook_icon} alt="Facebook Dentissima" />
             </a>
@@ -41,6 +46,7 @@ const Footer = () => {
               className="footer-social-icon"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Profilul Instagram Dentissima Clinique"
             >
               <img src={instagram_icon} alt="Instagram Dentissima" />
             </a>
@@ -89,7 +95,7 @@ const Footer = () => {
           <div className="footer-location-phone">
             <BsFillTelephoneFill />
             <p>
-              <a href="tel:(+)40364566544">Telefon - 0364 566 544</a>
+              <a href="tel:+40364566544">Telefon - 0364 566 544</a>
             </p>
           </div>
           <div className="footer-location-program">
@@ -117,13 +123,16 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="footer-copyright">
+      <section className="footer-copyright">
         <hr />
-        <p>@vasy. Toate drepturile sunt rezervate</p>
-      </div>
-    </div>
+        <p>
+          &copy; {new Date().getFullYear()} vasy. Toate drepturile sunt
+          rezervate.
+        </p>
+      </section>
+    </footer>
   );
 };
 

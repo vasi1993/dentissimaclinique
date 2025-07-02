@@ -41,6 +41,7 @@ const Carousel = ({ picture }) => {
         {picture.map((item, idx) => {
           return (
             <div
+              key={idx}
               className={
                 idx === slide
                   ? "carousel-card carousel-card-active"
@@ -50,7 +51,6 @@ const Carousel = ({ picture }) => {
               <img
                 src={item.src}
                 alt={item.alt}
-                key={idx}
                 className="card-image"
                 loading="lazy" // Lazy loading pentru performanță
               />

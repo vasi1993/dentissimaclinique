@@ -8,7 +8,11 @@ import { useNavigate } from "react-router-dom";
 const Header = () => {
   const navigate = useNavigate();
   return (
-    <div className="header" id="home">
+    <header
+      className="header"
+      id="home"
+      aria-label="Antetul paginii principale"
+    >
       <div className="header-image">
         <div className="header-main">
           <h1>DENTISSIMA CLINIQUE</h1>
@@ -34,7 +38,7 @@ const Header = () => {
         </div>
       </div>
       <div className="header-container">
-        <div className="header-container-programare">
+        <section className="header-container-programare">
           <h1>Programează o consultație</h1>
           <p>
             Suntem aici pentru a transforma fiecare vizită la dentist într-o
@@ -50,9 +54,9 @@ const Header = () => {
             Vreau o programare
             <FaArrowRightLong className="arrow-btn" />
           </button>
-        </div>
+        </section>
 
-        <div className="header-container-orar">
+        <section className="header-container-orar">
           <h1>Program</h1>
           <div className="days">
             <div className="day">
@@ -89,20 +93,20 @@ const Header = () => {
               <p>Închis</p>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div className="header-container-contact">
+        <section className="header-container-contact">
           <h1>Contactează-ne</h1>
-          <a href="tel:(+)40364566544" aria-label="Sună la Dentissima Clinique">
+          <a href="tel:+40364566544" aria-label="Sună la Dentissima Clinique">
             {" "}
             <FaPhoneAlt /> 0364566554
           </a>
           <p>
             Dentissima Clinique – Îngrijire avansată pentru un zâmbet de durată.
           </p>
-        </div>
+        </section>
       </div>
-    </div>
+    </header>
   );
 };
 

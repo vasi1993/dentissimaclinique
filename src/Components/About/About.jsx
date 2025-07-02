@@ -14,14 +14,14 @@ const About = () => {
         description="Dentissima Clinique este un cabinet stomatologic dedicat sănătății și frumuseții zâmbetului tău. Situat într-o atmosferă primitoare și modernă, cabinetul nostru îmbină expertiza medicală cu cele mai noi tehnologii dentare, oferind o gamă variată de servicii pentru toți pacienții."
       />
 
-      <div className="about-us">
-        <div className="about-img">
-          <Carousel picture={slides} />
-        </div>
-        <div className="about-us-description">
-          <h1 className="about-us-description-title">
+      <article className="about-us">
+        <figure className="about-img">
+          <Carousel picture={slides} alt="Imagine din clinica stomatologică" />
+        </figure>
+        <article className="about-us-description">
+          <h2 className="about-us-description-title">
             Un pacient fericit este zâmbetul nostru cel mai de preț!
-          </h1>
+          </h2>
           <p className="first-paragraph">
             Echipa noastră de medici stomatologi este formată din profesioniști
             experimentați, pasionați de domeniul lor și dedicați să ofere
@@ -42,8 +42,8 @@ const About = () => {
             <h3>Dr. Adi Andra</h3>
             <p>Medic specialist Endodonție</p>
           </div>
-        </div>
-      </div>
+        </article>
+      </article>
     </section>
   );
 };
